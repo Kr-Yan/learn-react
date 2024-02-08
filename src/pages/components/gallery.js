@@ -10,3 +10,4 @@ export default function Gallery() {
     </div>
   );
 }
+// Profile is basically a defined component can be used.

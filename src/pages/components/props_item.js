@@ -1,8 +1,10 @@
 function Item({ name, isPacked }) {
   if (isPacked) {
     return <li className="item">{name} ✔</li>;
+    //a element of a name with a check mark
   }
   return <li className="item"> {name} </li>
+  // an element with just a name
 }
 
 export default function PackingList() {

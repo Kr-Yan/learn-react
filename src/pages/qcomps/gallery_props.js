@@ -1,16 +1,26 @@
+function Avatar({person, size=70}){
+scientist={{name, imageID}}
+   return (
+   <section className="profile">
+     <img
+       className="avatar"
+       src={'https://i.imgur.com/' + person.imageId + 's.jpg'}
+       alt={person.name}
+       width={size}
+       height={size}
+     />
+   );
+ }
+
 export default function Gallery() {
   return (
     <div>
       <h1>Notable Scientists</h1>
       <section className="profile">
         <h2>Maria Skłodowska-Curie</h2>
-        <img
-          className="avatar"
-          src='https://i.imgur.com/szV5sdGs.jpg'
-          alt="Maria Skłodowska-Curie"
-          width={70}
-          height={70}
-        />
+        <Avatar
+            person={{ name: 'Maria Skłodowska-Curie', imageId: 'OKS67lh'}}
+            size={70} />
         <ul>
           <li>
             <b>Profession: </b>
@@ -28,13 +38,9 @@ export default function Gallery() {
       </section>
       <section className="profile">
         <h2>Katsuko Saruhashi</h2>
-        <img
-          className="avatar"
-          src='https://i.imgur.com/YfeOqp2s.jpg'
-          alt="Katsuko Saruhashi"
-          width={70}
-          height={70}
-        />
+        <Avatar
+            person={{ name: 'Maria Skłodowska-Curie', imageId: 'YfeOqp2s'}}
+            size={70} />
         <ul>
           <li>
             <b>Profession: </b>

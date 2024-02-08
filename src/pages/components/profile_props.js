@@ -10,6 +10,8 @@ function Avatar({person, size=100}) {
   );
 }
 
+///in JS {} means an object
+
 export default function Profile() {
   return (
     <div>
@@ -24,3 +26,4 @@ export default function Profile() {
     </div>
   );
 }
+//person is the prop that passed to Avatar
