@@ -12,15 +12,16 @@ import styles from '@/styles/Home.module.css'
 //import Bios from './qcomps/bios'
 //import Todos from './qcomps/todos'
 
-//import Holder from './components/square'
+import Holder from './components/square'
 
 //import Profile from './components/props_item'
 
-import Profile from './qcomps/props_item'
+//import Profile from './qcomps/props_item'
+
 export default function Home() {
   return (
     <div className={styles.main}>
-        <Profile />
+        <Holder />
     </div>
   )
 }

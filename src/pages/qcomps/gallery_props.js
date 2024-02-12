@@ -4,7 +4,7 @@ scientist={{name, imageID}}
    <section className="profile">
      <img
        className="avatar"
-       src={'https://i.imgur.com/' + person.imageId + 's.jpg'}
+       src={'https://i.imgur.com/' + person.imageId + '.jpg'}
        alt={person.name}
        width={size}
        height={size}
@@ -33,13 +33,14 @@ export default function Gallery() {
           <li>
             <b>Discovered: </b>
             polonium (element)
+            //discovery
           </li>
         </ul>
       </section>
       <section className="profile">
         <h2>Katsuko Saruhashi</h2>
         <Avatar
-            person={{ name: 'Maria Skłodowska-Curie', imageId: 'YfeOqp2s'}}
+            person={{ name: 'Maria Skłodowska-Curie', imageId: 'YfeOqp2s', }}
             size={70} />
         <ul>
           <li>
