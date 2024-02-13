@@ -12,16 +12,31 @@ import styles from '@/styles/Home.module.css'
 //import Bios from './qcomps/bios'
 //import Todos from './qcomps/todos'
 
-import Holder from './components/square'
+//import Holder from './components/square'
 
 //import Profile from './components/props_item'
 
 //import Profile from './qcomps/props_item'
 
+
+//02/12
+//import List from './components/list_plain.js'
+//import List from './components/list_keys.js'
+
+//import List from './qcomps/list_keys_id.js'
+//import Recipe from './qcomps/recipes.js'
+
+//import Button from './components/button.js'
+//import Button from './qcomps/menuBar.js'
+
+//import Button from './components/whyState.js'
+//import Button from './components/state.js'
+//import Button from './qcomps/state.js'
+import PersonData from './components/stateObj.js'
 export default function Home() {
   return (
     <div className={styles.main}>
-        <Holder />
+        <PersonData />
     </div>
   )
 }

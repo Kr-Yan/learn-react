@@ -3,10 +3,13 @@ import { sculptureList } from '../../data/data.js';
 
 export default function Gallery() {
   const [index, setIndex] = useState(0);
-
+//set index allows the component to be redraw everytime the button is clicked. So every one of them should start with
+//set e.g. setIndex, setTime etc.
+//useState(0) is the initial value that being set.
   function handleClick() {
     setIndex(index + 1);
   }
+
 
   let sculpture = sculptureList[index];
   return (
