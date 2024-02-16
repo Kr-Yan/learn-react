@@ -32,7 +32,17 @@ import styles from '@/styles/Home.module.css'
 //import Button from './components/whyState.js'
 //import Button from './components/state.js'
 //import Button from './qcomps/state.js'
-import PersonData from './components/stateObj.js'
+//import PersonData from './components/stateObj.js'
+
+
+//02/14
+//import Button from './qcomps/stuckForms.js'
+//import Button from './qcomps/thankYouCrash.js'
+//import Form from './components/snapshot2.js'
+//import Form from './components/queueUpdates.js'
+//import Form from './qcomps/shoppingCart.js'
+//import Form from './components/updObjects.js'
+import Form from './qcomps/updObjectsForm.js'
 export default function Home() {
   return (
     <div className={styles.main}>

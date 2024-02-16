@@ -12,7 +12,7 @@ export default function Form() {
 
   function handleCityChange(e) {
     const nextArtwork = { ...person.artwork, city: e.target.value };
-    const nextPerson = { ...person, artwork: nextArtwork };
+    const nextPerson = { ...person, artwork: nextArtwork };//when updating a state object, we want to make a copy of it and change.
     setPerson(nextPerson);
   }
 
