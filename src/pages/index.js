@@ -18,10 +18,14 @@ import Holder from './components/square'
 
 //import Profile from './qcomps/props_item'
 
+//import Profile from './qcomps/updObjectsForm'
+//import Profile from './qcomps/artistsArr'
+//import Profile from './qcomps/artistsRemoveArr'
+import Profile from './qcomps/arrObj'
 export default function Home() {
   return (
     <div className={styles.main}>
-        <Holder />
+        <Profile />
     </div>
   )
 }

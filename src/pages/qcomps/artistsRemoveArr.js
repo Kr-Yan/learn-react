@@ -11,6 +11,11 @@ export default function List() {
     initialArtists
   );
 
+  function handleDeleteClick(id){
+  setArtists(artists.filter((artist)=>{
+  return artist.id!=id;}))
+  }
+
   return (
     <>
       <h1>Inspiring sculptors:</h1>

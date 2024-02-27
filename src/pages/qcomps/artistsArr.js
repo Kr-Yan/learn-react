@@ -14,10 +14,15 @@ export default function List() {
         onChange={e => setName(e.target.value)}
       />
       <button onClick={() => {
-        artists.push({
-          id: nextId++,
-          name: name,
-        });
+//        artists.push({
+//          id: nextId++,
+//          name: name,
+//        });
+//instead using the push Array, which changes the original array. we used a method called setArtists
+          setArtists([
+          ...artists,
+          {id:nextId++, name:name}
+          ])
       }}>Add</button>
       <ul>
         {artists.map(artist => (
